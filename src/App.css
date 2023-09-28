@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+
+.action-btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+}
+
+.text-username {
+  color: #878787;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text-comment {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.post {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 400px;
+}
+
+.three-dots {
+  right: 0px;
+  top: 11.695px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
